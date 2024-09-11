@@ -1,38 +1,38 @@
 /* Write your CSS code here */
-.profile-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
 }
-.profile{
-    margin: 5px 0;
-    width: 150px;
-    height: 150px;
+.profile {
+  margin: 5px 0;
+  width: 150px;
+  height: 150px;
 }
-.username{
-    font-size: 24px;
-    margin: 10px;
-    font-weight: bold;
-    color: #12022f;
-    font-family: 'Roboto';
+.username {
+  font-size: 24px;
+  margin: 10px;
+  font-weight: bold;
+  color: #12022f;
+  font-family: 'Roboto';
 }
-.role{
-    font-size: 14px;
-    margin: 5px;
-    color: #616e7c;
-    font-family: 'Roboto';
+.role {
+  font-size: 14px;
+  margin: 5px;
+  color: #616e7c;
+  font-family: 'Roboto';
 }
-@media screen and (min-width:992px){
-    .profile{
-        width: 250px;
-        height: 250px;
-    }
-    .username{
-        font-size: 36px;
-    }
-    .role{
-        font-size: 20px; 
-    }
+@media screen and (min-width: 992px) {
+  .profile {
+    width: 250px;
+    height: 250px;
+  }
+  .username {
+    font-size: 36px;
+  }
+  .role {
+    font-size: 20px;
+  }
 }
