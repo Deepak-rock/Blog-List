@@ -7,7 +7,7 @@ const BlogList = props => {
   return (
     <ul className="blog_list">
       {blogDetails.map(eachBlog => (
-        <BlogItem key={eachBlog} blogItemDetails={eachBlog} />
+        <BlogItem key={eachBlog.id} blogItemDetails={eachBlog} />
       ))}
     </ul>
   )
